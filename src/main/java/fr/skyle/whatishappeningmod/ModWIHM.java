@@ -3,10 +3,12 @@ package fr.skyle.whatishappeningmod;
 import fr.skyle.whatishappeningmod.events.CommonEventsHandler;
 import fr.skyle.whatishappeningmod.handler.RegisteringHandler;
 import fr.skyle.whatishappeningmod.proxy.WIHMCommonProxy;
+import fr.skyle.whatishappeningmod.world.dream.dimension.DreamDimension;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
@@ -30,12 +32,18 @@ public class ModWIHM {
     public void preInit(FMLPreInitializationEvent event) {
         logger = event.getModLog();
         proxy.preInit(event.getSuggestedConfigurationFile());
-        //DreamDimension.registerDimension();
+        DreamDimension.registerDimension();
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         proxy.init();
+    }
+
+    @Mod.EventHandler
+    public void postInit(FMLPostInitializationEvent event) {
+        proxy.postInit();
+        RegisteringHandler.postInitRegistries();
     }
 
     public ModWIHM() {

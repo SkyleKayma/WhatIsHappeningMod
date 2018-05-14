@@ -10,4 +10,8 @@ public class WIHMCommonProxy {
     public void init() {
 
     }
+
+    public void postInit() {
+
+    }
 }

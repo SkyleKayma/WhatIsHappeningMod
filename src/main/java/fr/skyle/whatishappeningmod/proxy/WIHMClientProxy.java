@@ -13,4 +13,9 @@ public class WIHMClientProxy extends WIHMCommonProxy {
     public void init() {
         super.init();
     }
+
+    @Override
+    public void postInit() {
+        super.postInit();
+    }
 }

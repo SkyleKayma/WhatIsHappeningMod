@@ -5,7 +5,7 @@ import net.minecraft.world.biome.BiomeProviderSingle;
 
 public class DreamBiomeProvider extends BiomeProviderSingle {
 
-    public DreamBiomeProvider(Biome biomeIn) {
-        super(biomeIn);
+    public DreamBiomeProvider() {
+        super(new DreamBiome());
     }
 }
