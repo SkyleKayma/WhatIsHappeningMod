@@ -1,0 +1,16 @@
+[
+{
+  "modid": "whatishappeningmod",
+  "name": "What Is Happening Mod",
+  "description": "WIP",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Skyle"],
+  "credits": "Me, me and me. And you because you are trying my mod !",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

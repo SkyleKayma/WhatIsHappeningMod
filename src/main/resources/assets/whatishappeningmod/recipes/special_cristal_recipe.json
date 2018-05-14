@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "key": {
+    "A": {
+      "item": "whatishappeningmod:blue_cristal"
+    },
+    "B": {
+      "item": "whatishappeningmod:yellow_cristal"
+    },
+    "C": {
+      "item": "whatishappeningmod:green_cristal"
+    },
+    "D": {
+      "item": "whatishappeningmod:sun_cristal"
+    },
+    "E": {
+      "item": "whatishappeningmod:old_cristal"
+    },
+    "F": {
+      "item": "whatishappeningmod:moon_cristal"
+    },
+    "G": {
+      "item": "whatishappeningmod:red_cristal"
+    },
+    "H": {
+      "item": "whatishappeningmod:rock_cristal"
+    },
+    "I": {
+      "item": "whatishappeningmod:strange_cristal"
+    }
+  },
+  "result": {
+    "item": "whatishappeningmod:special_cristal"
+  }
+}
