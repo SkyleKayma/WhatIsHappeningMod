@@ -1,7 +1,6 @@
-package fr.skyle.whatishappeningmod.world.type;
+package fr.skyle.whatishappeningmod.world.dimensions.dream;
 
-import fr.skyle.whatishappeningmod.world.dream.biome.DreamBiomeProvider;
-import fr.skyle.whatishappeningmod.world.dream.dimension.DreamDimension;
+import fr.skyle.whatishappeningmod.world.biomes.DreamBiomeProvider;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldType;
 import net.minecraft.world.biome.BiomeProvider;

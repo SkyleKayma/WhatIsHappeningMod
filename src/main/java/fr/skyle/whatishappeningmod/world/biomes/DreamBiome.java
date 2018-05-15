@@ -1,6 +1,6 @@
-package fr.skyle.whatishappeningmod.world.dream.biome;
+package fr.skyle.whatishappeningmod.world.biomes;
 
-import fr.skyle.whatishappeningmod.world.dream.dimension.DreamDimension;
+import fr.skyle.whatishappeningmod.world.dimensions.dream.DreamDimension;
 import net.minecraft.entity.passive.EntityPig;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.biome.Biome;

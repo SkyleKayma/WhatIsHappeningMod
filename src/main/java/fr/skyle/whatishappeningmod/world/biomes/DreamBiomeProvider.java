@@ -1,6 +1,5 @@
-package fr.skyle.whatishappeningmod.world.dream.biome;
+package fr.skyle.whatishappeningmod.world.biomes;
 
-import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.BiomeProviderSingle;
 
 public class DreamBiomeProvider extends BiomeProviderSingle {

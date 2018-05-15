@@ -3,7 +3,8 @@ package fr.skyle.whatishappeningmod.handler;
 import fr.skyle.whatishappeningmod.blocks.WIHMBlocks;
 import fr.skyle.whatishappeningmod.items.WIHMItems;
 import fr.skyle.whatishappeningmod.world.WIHMBiomes;
-import fr.skyle.whatishappeningmod.world.type.DreamWorldType;
+import fr.skyle.whatishappeningmod.world.WIHMDimensions;
+import fr.skyle.whatishappeningmod.world.dimensions.dream.DreamWorldType;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.world.WorldType;
@@ -28,9 +29,10 @@ public class RegisteringHandler {
     @SubscribeEvent
     public void onBiomeRegister(RegistryEvent.Register<Biome> event) {
         WIHMBiomes.initBiomes();
+        WIHMDimensions.registerDimensions();
     }
 
-    public static void postInitRegistries(){
+    public static void postInitRegistries() {
         WorldType dreamWT = new DreamWorldType();
     }
 }

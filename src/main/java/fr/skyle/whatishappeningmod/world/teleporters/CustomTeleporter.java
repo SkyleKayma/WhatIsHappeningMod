@@ -1,4 +1,4 @@
-package fr.skyle.whatishappeningmod.world.teleporter;
+package fr.skyle.whatishappeningmod.world.teleporters;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.world.Teleporter;

@@ -1,8 +1,8 @@
 package fr.skyle.whatishappeningmod.world;
 
 import fr.skyle.whatishappeningmod.ModWIHM;
-import fr.skyle.whatishappeningmod.world.dream.biome.DreamBiome;
-import fr.skyle.whatishappeningmod.world.dream.dimension.DreamDimension;
+import fr.skyle.whatishappeningmod.world.biomes.DreamBiome;
+import fr.skyle.whatishappeningmod.world.dimensions.dream.DreamDimension;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.BiomeDictionary;
 import net.minecraftforge.common.BiomeManager;

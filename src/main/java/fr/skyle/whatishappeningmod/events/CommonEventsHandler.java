@@ -1,8 +1,8 @@
 package fr.skyle.whatishappeningmod.events;
 
 import fr.skyle.whatishappeningmod.ModWIHM;
-import fr.skyle.whatishappeningmod.world.dream.dimension.DreamDimension;
-import fr.skyle.whatishappeningmod.world.teleporter.CustomTeleporter;
+import fr.skyle.whatishappeningmod.world.dimensions.dream.DreamDimension;
+import fr.skyle.whatishappeningmod.world.teleporters.CustomTeleporter;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.server.MinecraftServer;
